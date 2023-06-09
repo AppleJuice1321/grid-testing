@@ -1,0 +1,49 @@
+.primaryNavbar__container {
+    margin: 0.5em 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search__engine {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar {
+    border-style: none;
+    padding: 0.7em;
+    width: 18em;
+    background-color: var(--back-bar);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bc/Steam_gray-brown_logo.svg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: left 0.5em center;
+}
+
+.search__btn {
+    background: transparent;
+    position: absolute;
+    border-style: none;
+    margin-left: 15.8em;
+    color: gray;
+}
+
+.settings__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.setting {
+    border-style: none;
+    height: 4px;
+    width: 6px;
+    background-color: var(text);
+}
+
+.userProfile {
+    padding: 0.2em 0.3em;
+    color: white;
+    background-color: var(--back-bar);
+}

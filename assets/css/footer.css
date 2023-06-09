@@ -1,0 +1,12 @@
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: var(--color1);
+}
+
+.footer__navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1em;
+    padding: 1em;
+}

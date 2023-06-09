@@ -1,0 +1,29 @@
+.secondaryNavbar__container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    margin: 0 3.5em;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.link:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.link:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+}
+
+.wallet__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7em;
+    color: var(--wallet);
+}

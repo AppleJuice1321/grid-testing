@@ -1,0 +1,16 @@
+.steam__ad {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color2);
+}
+
+.cardDeck {
+    padding: 2em 0;
+}
+
+.card__img {
+    height: auto;
+    display: block;
+    width: 18em;
+    margin-bottom: 1em;
+}
